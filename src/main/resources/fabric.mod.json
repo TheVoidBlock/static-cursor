@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "id": "staticcursor",
+  "version": "${version}",
+  "name": "StaticCursor",
+  "description": "Forces Minecraft to use the default cursor no matter what you're doing! Reverts cursor changes made in 25w35a",
+  "authors": [ "TheVoidBlock" ],
+  "contact": {
+    "homepage": "modrinth.com/mod/static-cursor",
+    "sources": "https://github.com/thevoidblock/static-cursor",
+    "issues": "https://github.com/thevoidblock/static-cursor/issues"
+  },
+  "license": "GPL-3.0",
+  "icon": "assets/staticcursor/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "io.github.thevoidblock.staticcursor.Staticcursor"
+    ]
+  },
+  "mixins": [
+    "staticcursor.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "minecraft": "${minecraft_version}"
+  }
+}
