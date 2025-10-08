@@ -4,4 +4,4 @@
 Forces Minecraft to use the default cursor no matter what you're doing! Reverts cursor changes made in 25w35a. This can make Minecraft menus feel a lot better to use and make it easier to navigate menus faster.
 
 # Example
-<img alt="static-cursor-demo" src="https://github.com/user-attachments/assets/fcb2faf4-efa5-4cae-9eda-6bd5d38a5dd6" />
+<img width="2560" height="1440" alt="static-cursor-demo" src="https://github.com/user-attachments/assets/e53483a9-49f7-42cc-b032-f3472a0bf44c" />
